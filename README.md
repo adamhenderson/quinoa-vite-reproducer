@@ -1,6 +1,6 @@
 # quinoa-vite-reproducer Project
 
-This is a reproducer project to demonstrate that quinoa is not forwarding on to the vite server for calls to http://localhost:8080 resulting in a Resource not Found messag, even though the vite server responds to http://localhost:3000
+This is a reproducer project to demonstrate that quinoa is not forwarding on to the vite server for calls to http://localhost:8080 resulting in a Resource not Found message, even though the vite server responds to http://localhost:3000, however http://localhost:8080/index.html does resolve correctly.
 
 When testing against the default quinoa quickstart, quinoa does indeed work as expected forwarding the request to the dev-server so http://localhost:8080 responds with the Theater app.
 
